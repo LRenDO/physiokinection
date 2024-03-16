@@ -13,10 +13,10 @@ body {
     background-color: #8C9CAD;
     font-size: 1.6rem;
     color: #919689;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 /*******************************************
@@ -24,10 +24,10 @@ body {
 /*******************************************/
 .card {
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 0.5em;
     box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.56);
-    flex-basis: 50%;
+    flex-basis: 80%;
     text-align: center;
 }
 
@@ -36,12 +36,11 @@ body {
     margin-top: 0;
 }
 
-/* Desktop Card Styles */
-@media screen and (min-width: 53.126rem){
-    body {
-        height: 70%;
-    }
-    
+
+/*******************************************
+/* Tablet and Desktop
+/*******************************************/
+@media screen and (min-width: 850px) {    
     .card {
         flex-basis: 30%;
         padding: 8rem 5rem;
